@@ -40,7 +40,7 @@ cd /var/www/html
 
 mv admin pihole_admin
 
-git clone https://github.com/arevindh/AdminLTE admin
+git clone https://github.com/trossr32/AdminLTE admin
 
 cd admin
 
@@ -54,6 +54,6 @@ whiptail --title "Pihole Speedtest Mod" --msgbox "Updating webpage.sh" 8 78
 
 cd /opt/pihole/
 mv webpage.sh webpage.sh.org
-wget https://github.com/arevindh/pi-hole/raw/master/advanced/Scripts/webpage.sh
+wget https://github.com/trossr32/pi-hole/raw/master/advanced/Scripts/webpage.sh
 
 whiptail --title "Pihole Speedtest Mod" --msgbox "Install complete" 8 78
